@@ -1,0 +1,68 @@
+{
+  "Header_with_all_mandatory_fields": {
+    "salution": "MR",
+    "first-name": "vivek",
+    "last-name": "shringi",
+    "birth-date":"1982-01-11",
+    "mobile-number":"+4915219068455",
+    "email":"vivek.shringi@example.com",
+    "login-name":"vshringi",
+    "password":"Vivek123"
+  }, "Header_with_out_optional_fields": {
+    "salution": "MR",
+    "first-name": "vivek",
+    "last-name": "shringi",
+    "birth-date":"1982-01-11",
+    "mobile-number":"+4915219068455",
+    "password":"Vivek123"
+  }, "Header_with_duplicate_login_name": {
+    "salution": "MR",
+    "first-name": "rohit",
+    "last-name": "sharma",
+    "birth-date":"1982-06-11",
+    "mobile-number":"+4915210000055",
+    "password":"Rsharma123"
+  }, "Header_with_missing_mandatory_fields": {
+    "salution": "MR",
+    "email":"vivek.shringi@example.com",
+    "password":"Vivek123"
+  }, "Header_with_user_already_exist": {
+    "salution": "MS",
+    "first-name": "julia",
+    "last-name": "alfred",
+    "birth-date":"1992-01-12",
+    "mobile-number":"+4915219078355",
+    "email":"julia.alfred@example.com",
+    "login-name":"jalfred",
+    "password":"Julia123"
+  },
+  "Header_active_card_user": {
+    "Login-name":"vivek.shringi",
+    "Pan": "5555333322221111",
+    "Password": "Vivek123"
+  },
+  "Header_locked_card_user": {
+    "Login-name":"rohit.sharma",
+    "Pan": "4444333322221111",
+    "Password":"Rsharma123"
+  },
+  "Header_with_wrong_authentication":{
+    "Login-name":"vshringi",
+    "Pan": "3434323221211010",
+    "Password":"HelloTest"
+  },
+  "Header_card_locking_success":{
+    "Login-name":"samyak.jain",
+    "Pan": "9999333322221111",
+    "Password": "Samyak123",
+    "lock-ref-id":"SERCREDWORK",
+    "locking-reason":"card lost"
+  },
+  "Header_card_locking_already_locked":{
+    "Login-name":"raunak.verma",
+    "Pan": "9999555522221111",
+    "Password": "Raunak123",
+    "lock-ref-id":"HOLYCOW",
+    "locking-reason":"card lost"
+  }
+}
