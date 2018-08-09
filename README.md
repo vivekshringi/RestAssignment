@@ -3,6 +3,7 @@ Tools used : Rest Assured, cucumber-jvm, org.skyscreamer, Maven
 
 
 Rest Assignment 
+
 ├── _skeleton
 ├   ├── JSONReader.java
 ├   └── RunCukesTest.java
